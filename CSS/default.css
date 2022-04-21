@@ -1,0 +1,91 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --font-color-light: rgb(199, 204, 214);
+    --font-color-base: rgb(109, 126, 140);
+    --font-color-dark: rgb(30, 32, 34);
+    --font-color-link: rgb(107, 159, 255);
+    --button-color: rgb(55, 125, 255);
+    --go-color: rgb(0, 200, 165);
+    --gradient-end: rgb(248, 249, 251);
+    --background-end: rgb(33, 51, 91);
+
+    --size-5: 0.313rem;
+    --size-10: 0.625rem;
+    --size-12: 0.75rem;
+    --size-14: 0.875rem;
+    --size-16: 1rem;
+    --size-18: 1.125rem;
+    --size-20: 1.25rem;
+    --size-30: 1.875rem;
+    --size-40: 2.5rem;
+    --size-50: 3.125rem;
+    --size-60: 3.75rem;
+    --size-100: 6.25rem;
+    --size-150: 9.375rem;
+
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    letter-spacing: 0;
+    margin: auto;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a { text-decoration: none; }
+
+a:hover { color: var(--font-color-link);}
+
+p { margin-top: 0; }
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.container {
+    margin: var(--size-100) 0;
+}
+
+button { 
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid transparent;
+    border-radius: var(--size-20);
+    padding: var(--size-10) var(--size-16);
+    color: var(--white);
+    background-color: var(--button-color);
+    font-size: var(--size-12);
+    font-weight: 600;
+    align-items: center;
+    gap: 0.313rem;
+    min-width: fit-content;
+}
+
+@media screen and (min-width: 1700px) {
+    body {
+      max-width: 1650px;
+    }
+}
