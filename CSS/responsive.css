@@ -13,7 +13,7 @@
         flex-wrap: wrap;
         width: 100%;
         position: absolute;
-        top: 120px;
+        top: 10rem;
         left: 0;
         right: 0;
         background-color: var(--white);
@@ -23,25 +23,13 @@
         padding-bottom: var(--size-20);
     }
 
-    body {
-        position: absolute;
-    }
+    .sticky { padding: 13%; }
 
-    .sticky {
-        padding: 9%;
-    }
+    #empowering { justify-content: center; }
 
-    #empowering {
-        justify-content: center;
-    }
+    .empowerL { margin-bottom: var(--size-30); }
 
-    .empowerL {
-        margin-bottom: var(--size-30);
-    }
-
-    .empowerR {
-        max-width: 100%;
-    }
+    .empowerR { max-width: 100%; }
 
     .front-bottom {
         display: flex;
@@ -82,13 +70,11 @@
         margin: 0%;
     }
 
-    .front-text p{
-        margin-bottom: 0;
-    }
+    .front-text p{ margin-bottom: 0; }
 
-    #hire {
-        margin: 0;
-    }
+    #hire { margin: 0; }
+
+    .price-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
 
 }
 
@@ -104,9 +90,7 @@
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 
-    #hire {
-        margin: 0;
-    }
+    #hire { margin: 0; }
 
     #prefooter {
         display: flex;
