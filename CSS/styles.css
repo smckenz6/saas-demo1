@@ -277,7 +277,7 @@
 #perspective {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 7rem;
     margin: var(--size-150) 0px;
     background-color: rgb(243, 246, 252);
