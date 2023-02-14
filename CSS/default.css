@@ -38,20 +38,13 @@ body {
     line-height: 1.6;
     letter-spacing: 0;
     margin: auto;
-    padding: 0;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
 
 a { text-decoration: none; }
 
 a:hover { color: var(--font-color-link);}
 
-p { margin-top: 0; }
 
 h2 {
     font-size: 2rem;
@@ -67,7 +60,7 @@ img {
 }
 
 .container {
-    margin: var(--size-100) 0;
+    margin: var(--size-100);
 }
 
 button { 
@@ -82,10 +75,4 @@ button {
     align-items: center;
     gap: 0.313rem;
     min-width: fit-content;
-}
-
-@media screen and (min-width: 1700px) {
-    body {
-      max-width: 1650px;
-    }
 }

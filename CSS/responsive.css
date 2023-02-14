@@ -25,9 +25,15 @@
 
     .sticky { padding: 13%; }
 
-    #empowering { justify-content: center; }
+    #empowering { 
+        justify-content: center;
+        margin: var(--size-100); 
+    }
 
-    .empowerL { margin-bottom: var(--size-30); }
+    .empowerL { 
+        margin-bottom: var(--size-30);
+        max-width: 30rem;
+    }
 
     .empowerR { max-width: 100%; }
 
@@ -80,17 +86,18 @@
 
 
 /*Large Phones*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 425px) {
     body {
-        position: absolute;
-        width: 132vw;
+        width: 160vw;
+    }
+
+    .gradient {
+        padding: 2rem;
     }
 
     .price-grid {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
-
-    #hire { margin: 0; }
 
     #prefooter {
         display: flex;
@@ -103,15 +110,33 @@
 /*Medium Phones*/
 @media screen and (max-width: 375px) {
     body {
-        position: absolute;
-        width: 145vw;
+        width: 220vw;
+    }
+
+    .gradient {
+        padding: 2rem;
     }
 }
 
 /*Small Phones*/
 @media screen and (max-width: 320px) {
-    body {
-        position: absolute;
-        width: 170vw;
+    body { 
+        width: 180vw;
+    }
+
+    .gradient {
+        padding: 1rem;
+    }
+
+    .top p {
+        max-width: fit-content;
+    }
+
+    .footer-top {
+        justify-content: space-around;
+    }
+
+    .front-bottom {
+        padding: 0;
     }
 }

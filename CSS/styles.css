@@ -1,7 +1,7 @@
 /*Header*/
 .gradient {
     background: linear-gradient(171deg, rgba(255,255,255,1) 33%, rgba(250,250,252,1) 40%, rgba(240,243,247,1) 66%, rgba(255,255,255,1) 75%);
-    padding: 2rem 8rem;
+    padding: 2rem;
 }
 
 .head1 {
@@ -11,6 +11,7 @@
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 .head-content1 {
@@ -217,7 +218,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .top h3 {
@@ -244,7 +244,7 @@
   
 .benefits-card {
     border: 1px solid transparent;
-    width: 20rem;
+    width: 16rem;
     max-width: fit-content;
     padding: var(--size-20);
     margin: 10px;
@@ -353,7 +353,7 @@
 }
 
 .front-circle p {
-    margin-top: 1.438rem;
+    margin-top: -1.438rem;
     color: var(--font-color-link);
     font-size: 2.813rem;
 }
@@ -708,7 +708,7 @@ form button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: var(--size-50);
+    margin: var(--size-50);
 }
 
 .footer-links a {
@@ -737,7 +737,7 @@ form button {
 .footer-bottom {
     text-align: center;
     color: var(--font-color-base);
-    margin-top: var(--size-40);
+    margin: var(--size-40);
 }
 
 /*Animations*/
